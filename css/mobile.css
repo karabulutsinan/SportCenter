@@ -1,0 +1,216 @@
+@media only screen and (max-width: 576px) {
+  nav {
+    padding: 0 20px; /* Yeni padding değeri */
+  }
+
+  .center {
+    padding: 0 20px; /* Yeni padding değeri */
+  }
+
+  .logo img {
+    width: 95%;
+  }
+
+  nav .link {
+    display: none; /* Linkleri gizle */
+    flex-direction: column; /* Sıralı düzen */
+    position: absolute;
+    top: 80px; /* İsteğe bağlı, navbar yüksekliğine göre ayarlayabilirsiniz */
+    right: 0; /* Sağa hizalama */
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(53, 85, 146, 1);
+    color: white;
+  }
+
+  nav .link.show {
+    display: flex;
+  }
+
+  nav .link li {
+    width: 100%; /* Tam genişlik */
+    text-align: center; /* Ortaya hizalama */
+    margin: 10px 0; /* İsteğe bağlı, linkler arasındaki boşluk */
+  }
+
+  nav .link a {
+    margin-left: 0; /* Linkler arasındaki boşluk sıfırlandı */
+  }
+
+  .checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: block;
+  }
+
+  #check:checked ~ .link {
+    display: flex; /* Checkbox işaretliyse linkleri göster */
+  }
+
+  .hero-section-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-section-buttons button {
+    margin: 0 10px 5px;
+  }
+
+  .statistic-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+  }
+
+  .statistic-info {
+    margin: 10px 0px;
+  }
+
+.purchase-intro h2,
+.trainers-intro h2,
+.classes-intro h2,
+.review-intro h2,
+.contact-us-intro h2 {
+    padding-top: 100px;
+}
+
+.purchase-intro .explanation,
+.trainers-intro .explanation,
+.classes-intro .explanation,
+.review-intro .explanation,
+.contact-us-intro .explanation {
+    padding: 25px 50px;
+}
+
+.classes-content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px;
+  justify-content: space-between;
+}
+
+.classes-content-article {
+  padding-right: 0px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.classes-content-figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.classes-content-figure img {
+  width: 60vh;
+  height: 100%;
+  margin-top: 30px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+  margin: 0 140px;
+}
+
+.bmi-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  padding-bottom: 20px;
+}
+
+.bmi-article {
+  max-width: 400px;
+  flex: 1;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.bmi-article h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #355592;
+}
+
+.bmi-calculator {
+  margin-top: 20px;
+  margin-left: 25px;
+  max-width: 350px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.trainers-cards {
+  margin-top: 35px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 50px;
+}
+
+.purchase-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.review-users-comments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 50px;
+  padding: 75px 25px 45px 25px;
+}
+
+.contact-us-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+
+.contact-us-map iframe {
+  margin-right: 27px;
+  width: 100%;
+}
+
+.contact-us-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.footer-logo img {
+  width: 45%;
+}
+.footer-text p {
+  color: white;
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+  padding: 0px 65px;
+}
+}
